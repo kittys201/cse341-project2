@@ -29,13 +29,13 @@
 
 ### Delete aircrafts DELETE http://localhost:3001/aircrafts/6683b20a05131bf1957a7032
 
-// PRODUCTION ### GET home GET https://cse341-project2-3j28.onrender.com
+// PRODUCTION ### GET home GET https://cse341-project2-4i4y.onrender.com
 
-### GET all aircrafts GET https://cse341-project2-3j28.onrender.com/aircrafts
+### GET all aircrafts GET https://cse341-project2-4i4y.onrender.com/aircrafts
 
-### GET specific aircrafts GET https://cse341-project2-3j28.onrender.com/aircrafts/6683b20a05131bf1957a7032
+### GET specific aircrafts GET https://cse341-project2-4i4y.onrender.com/aircrafts/6683b20a05131bf1957a7032
 
-### Add aircrafts (POST aircrafts) POST https://cse341-project2-3j28.onrender.com/aircrafts Content-Type: application/json
+### Add aircrafts (POST aircrafts) POST https://cse341-project2-4i4y.onrender.com/aircrafts Content-Type: application/json
 
  {
       "name": "F/A-18 Super Hornet",
@@ -48,7 +48,7 @@
       "crew": "1-2"
     }
 
-### Change aircrafts information (PUT) PUT https://cse341-project2-3j28.onrender.com/aircrafts/6683b20a05131bf1957a7032Content-Type: application/json
+### Change aircrafts information (PUT) PUT https://cse341-project2-4i4y.onrender.com/aircrafts/6683b20a05131bf1957a7032Content-Type: application/json
 
  {
       "name": "F/A-18 Super Hornet",
@@ -60,4 +60,4 @@
       "role": "Carrier-based Multirole Fighter",
       "crew": "1-2"
     }
-### Remove a aircrafts (DELETE) DELETE https://cse341-project2-3j28.onrender.com/aircrafts/{id}
+### Remove a aircrafts (DELETE) DELETE https://cse341-project2-4i4y.onrender.com/aircrafts/{id}

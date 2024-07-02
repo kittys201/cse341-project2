@@ -24,13 +24,13 @@
 
 ### Delete bird DELETE http://localhost:3001/birds/<id>
 
-// PRODUCTION ### GET home GET https://cse341-project2-3j28.onrender.com
+// PRODUCTION ### GET home GET https://cse341-project2-4i4y.onrender.com
 
-### GET all birds GET https://cse341-project2-3j28.onrender.com/birds
+### GET all birds GET https://cse341-project2-4i4y.onrender.com/birds
 
-### GET specific bird GET https://cse341-project2-3j28.onrender.com/birds/6683ae6105131bf1957a702b
+### GET specific bird GET https://cse341-project2-4i4y.onrender.com/birds/6683ae6105131bf1957a702b
 
-### Add bird (POST bird) POST https://cse341-project2-3j28.onrender.com/birds Content-Type: application/json
+### Add bird (POST bird) POST https://cse341-project2-4i4y.onrender.com/birds Content-Type: application/json
 
 {
   "name": "Sky",
@@ -39,7 +39,7 @@
   "color": "Blue and White"
 }
 
-### Change bird information (PUT) PUT https://cse341-project2-3j28.onrender.com/birds/6683ae6105131bf1957a702b Content-Type: application/json
+### Change bird information (PUT) PUT https://cse341-project2-4i4y.onrender.com/birds/6683ae6105131bf1957a702b Content-Type: application/json
 
 {
   "name": "Skitty",
@@ -48,4 +48,4 @@
   "color": "Blue and White"
 }
 
-### Remove a bird (DELETE) DELETE https://cse341-project2-3j28.onrender.com/birds/<id>
+### Remove a bird (DELETE) DELETE https://cse341-project2-4i4y.onrender.com/birds/<id>

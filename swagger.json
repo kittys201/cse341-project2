@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "cse341-project2-3j28.onrender.com",
+  "host": "cse341-project2-4i4y.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
@@ -41,10 +41,10 @@
         }
       }
     },
-    "/motos/{id}": {
+    "/aircrafts/{id}": {
       "get": {
         "tags": [
-          "motos"
+          "aircrafts"
         ],
         "description": "",
         "produces": [
@@ -69,7 +69,7 @@
       },
       "put": {
         "tags": [
-          "motos"
+          "aircrafts"
         ],
         "description": "",
         "parameters": [
@@ -85,28 +85,28 @@
             "schema": {
               "type": "object",
               "properties": {
-                "year": {
+                "name": {
                   "example": "any"
                 },
-                "make": {
+                "manufacturer": {
                   "example": "any"
                 },
-                "model": {
+                "yearIntroduced": {
                   "example": "any"
                 },
-                "color": {
+                "maxSpeed": {
                   "example": "any"
                 },
-                "engineSize": {
+                "range": {
                   "example": "any"
                 },
-                "transmissionType": {
+                "engineType": {
                   "example": "any"
                 },
-                "gearCount": {
+                "role": {
                   "example": "any"
                 },
-                "shifterType": {
+                "crew": {
                   "example": "any"
                 }
               }
@@ -130,7 +130,7 @@
       },
       "delete": {
         "tags": [
-          "motos"
+          "aircrafts"
         ],
         "description": "",
         "parameters": [
@@ -157,10 +157,10 @@
         }
       }
     },
-    "/motos/": {
+    "/aircrafts/": {
       "get": {
         "tags": [
-          "motos"
+          "aircrafts"
         ],
         "description": "",
         "produces": [
@@ -174,7 +174,7 @@
       },
       "post": {
         "tags": [
-          "motos"
+          "aircrafts"
         ],
         "description": "",
         "parameters": [
@@ -184,28 +184,28 @@
             "schema": {
               "type": "object",
               "properties": {
-                "year": {
+                "name": {
                   "example": "any"
                 },
-                "make": {
+                "manufacturer": {
                   "example": "any"
                 },
-                "model": {
+                "yearIntroduced": {
                   "example": "any"
                 },
-                "color": {
+                "maxSpeed": {
                   "example": "any"
                 },
-                "engineSize": {
+                "range": {
                   "example": "any"
                 },
-                "transmissionType": {
+                "engineType": {
                   "example": "any"
                 },
-                "gearCount": {
+                "role": {
                   "example": "any"
                 },
-                "shifterType": {
+                "crew": {
                   "example": "any"
                 }
               }
@@ -228,10 +228,10 @@
         }
       }
     },
-    "/cats/{id}": {
+    "/birds/{id}": {
       "get": {
         "tags": [
-          "cats"
+          "birds"
         ],
         "description": "",
         "produces": [
@@ -256,7 +256,7 @@
       },
       "put": {
         "tags": [
-          "cats"
+          "birds"
         ],
         "description": "",
         "parameters": [
@@ -275,7 +275,7 @@
                 "name": {
                   "example": "any"
                 },
-                "breed": {
+                "species": {
                   "example": "any"
                 },
                 "gender": {
@@ -305,7 +305,7 @@
       },
       "delete": {
         "tags": [
-          "cats"
+          "birds"
         ],
         "description": "",
         "parameters": [
@@ -332,10 +332,10 @@
         }
       }
     },
-    "/cats/": {
+    "/birds/": {
       "get": {
         "tags": [
-          "cats"
+          "birds"
         ],
         "description": "",
         "produces": [
@@ -349,7 +349,7 @@
       },
       "post": {
         "tags": [
-          "cats"
+          "birds"
         ],
         "description": "",
         "parameters": [
@@ -362,7 +362,7 @@
                 "name": {
                   "example": "any"
                 },
-                "breed": {
+                "species": {
                   "example": "any"
                 },
                 "gender": {
