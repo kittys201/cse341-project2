@@ -25,7 +25,7 @@ const saveAircraft = (req, res, next) => {
     const validationRule = {
       name: 'required|min:1|max:50|string',
       manufacturer: 'required|min:1|max:50|string',
-      yearIntroduced: ['required', 'regex:/^(19|20)[\d]{2,2}$/'],
+      yearIntroduced: ['required', 'regex:/^(19|20)[\\d]{2,2}$/'],
       maxSpeed: 'required|min:1|max:20|string',
       range: 'required|min:1|max:20|string',
       engineType: 'required|min:1|max:20|string',
